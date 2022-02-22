@@ -18,7 +18,7 @@ if(process.env.NODE_ENV==="production"){
     })
 }
 //connection and port
-// const url = "mongodb+srv://geeta:geeta9812@cluster0.5pxjb.mongodb.net/instagramClone?retryWrites=true&w=majority"
+// const url = "mongodb+srv://geeta:@cluster0.5pxjb.mongodb.net/instagramClone?retryWrites=true&w=majority"
 mongoose.connect(keys).then(()=>{
     console.log('we are connected to the database')
     app.listen(PORT,()=>{
